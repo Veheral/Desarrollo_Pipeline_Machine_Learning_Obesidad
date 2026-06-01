@@ -131,34 +131,8 @@ EDA → Preprocesamiento → Feature Engineering → Selección de Variables →
 - **Recomendación para producción**: desplegar **Random Forest** como clasificador principal con umbral de confianza configurable para escalar a revisión manual los casos ambiguos entre clases adyacentes.
 ---
  
-## **⚙️ Instalación**
- 
-```bash
-# **Clonar el repositorio**
-git clone https://github.com/Veheral/Desarrollo_Pipeline_Machine_Learning_Obesidad.git
-cd Desarrollo_Pipeline_Machine_Learning_Obesidad
- 
-# **Crear entorno virtual**
-python -m venv venv
-source venv/bin/activate        # Linux/Mac
-venv\Scripts\activate           # Windows
- 
-# **Instalar dependencias**
-pip install -r requirements.txt
-```
- 
-### **Dependencias principales**
- 
-```
-pandas
-numpy
-scikit-learn
-matplotlib
-seaborn
-jupyter
-```
- 
----
+
+
  
 ## **▶️ Uso**
  
